@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color: aliceblue;"><b><center>Calculator</center></b></h1>
+    <div class="container">
+        <form name="forms">
+            <input type="text"name="result"size="36"id="res">
+            <br>
+            <input type="button" value="1" onclick="document.forms.result.value+=1">
+            <input type="button" value="2" onclick="document.forms.result.value+=2">
+            <input type="button" value="3" onclick="document.forms.result.value+=3">
+            <input type="button" value="4" onclick="document.forms.result.value+=4">
+            <br>
+            <input type="button" value="5" onclick="document.forms.result.value+=5">
+            <input type="button" value="6" onclick="document.forms.result.value+=6">
+            <input type="button" value="7" onclick="document.forms.result.value+=7">
+            <input type="button" value="8" onclick="document.forms.result.value+=8">
+            <br>
+            <input type="button" value="9" onclick="document.forms.result.value+=9">
+            <input type="button" value="0" onclick="document.forms.result.value+=0">
+            <input type="button" value="+" onclick="document.forms.result.value+='+'">
+            <input type="button" value="-" onclick="document.forms.result.value+='-'">
+            <br>
+            <input type="button" value="*" onclick="document.forms.result.value+='*'">
+            <input type="button" value="/" onclick="document.forms.result.value+='/'">
+            <input type="button" value="." onclick="document.forms.result.value+='.'">
+            <input type="button" value="AC" onclick="document.forms.result.value=''">
+            <br>
+            <input id="cal"type="button" value="=" onclick="document.forms.result.value=eval(document.forms.result.value)">
+        </form>
+    </div>
+    <h2 style="color:white; float:right;">This is made by Rahul Gupta</h2>
+</body>
+</html>

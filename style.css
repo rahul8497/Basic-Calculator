@@ -1,0 +1,36 @@
+body{
+    background-color: #323232;
+}
+.container{
+width: 279px;
+height: 381px;
+border-top:20px ridge red;
+border-bottom:20px groove red;
+border-left:3px ridge rgb(182, 230, 155);
+border-right:3px groove rgb(218, 219, 131);
+margin: 0 auto;
+border-radius: 5px;
+box-shadow: 0px 5px 10px gray;
+background-color: white;
+}
+input[type=button]{
+width:62.5px;
+height:62.5px;
+margin: 2px;
+font-size: 30px;
+}
+input[type=button]:hover{
+    background-color: hotpink;
+}
+#cal{
+    width:98%;
+}
+input[type="text"]{
+    height:40px;
+    margin:1px;
+}
+h2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
